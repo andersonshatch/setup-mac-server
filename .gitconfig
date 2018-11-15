@@ -1,0 +1,30 @@
+[user]
+	name = Josh Anderson
+	email = andersonshatch@gmail.com
+[color]
+	ui = auto
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	excludesfile = /Users/josh/.gitignore
+	whitespace = fix
+[push]
+	default = current
+[apply]
+	whitespace = fix
+[rerere]
+	enabled = 1
+[rebase]
+	autosquash = true
+	autostash = true
+[merge]
+	log = true
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[help]
+	autocorrect = 1
+[diff]
+	compactionHeuristic = true
+
