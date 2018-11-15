@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-cp .bash_profile ~/
-cp .bashrc ~/
-cp .gitconfig ~/
-cp .inputrc ~/
-cp .screenrc ~/
-cp .vimrc ~/
+cp dotfiles/.bash_profile ~/
+cp dotfiles/.bashrc ~/
+cp dotfiles/.gitconfig ~/
+cp dotfiles/.inputrc ~/
+cp dotfiles/.screenrc ~/
+cp dotfiles/.vimrc ~/
 
 if test ! $(which brew)
 then
