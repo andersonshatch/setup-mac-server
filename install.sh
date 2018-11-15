@@ -15,3 +15,5 @@ fi
 brew bundle -v
 
 ./changeshell.sh
+
+sudo launchtl load /System/Library/LaunchDaemons/ssh.plist
