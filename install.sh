@@ -19,3 +19,5 @@ curl https://api.github.com/users/andersonshatch/keys | jq -r .[].key > $HOME/.s
 ./changeshell.sh
 
 sudo launchtl load /System/Library/LaunchDaemons/ssh.plist
+
+./defaults.sh
