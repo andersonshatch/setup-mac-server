@@ -11,6 +11,7 @@ brew "fpp"
 brew "git"
 brew "httpie"
 brew "httpd"
+brew "jq"
 brew "mosquitto", restart_service: :changed
 brew "mysql", restart_service: :changed
 brew "node@8", link: true
