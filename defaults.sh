@@ -1,6 +1,9 @@
 # Faster key repeat
 defaults write NSGlobalDomain KeyRepeat -int 1
 
+# Tab for all controls
+defaults write NSGlobalDomain AppleKeyboardUIMode -int 2
+
 # Hot corner - top left = turn off display
 defaults write com.apple.dock wvous-tl-corner -int 10
 
