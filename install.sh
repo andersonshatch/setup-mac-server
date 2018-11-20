@@ -19,5 +19,6 @@ curl https://api.github.com/users/andersonshatch/keys | jq -r .[].key > $HOME/.s
 ./changeshell.sh
 
 sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.screensharing.plist
 
 ./defaults.sh
