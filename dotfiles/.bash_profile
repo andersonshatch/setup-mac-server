@@ -1,8 +1,8 @@
 #source .bash_profile to reload this
 
 # Use bash-completion, if available
-if [ -f /opt/local/share/git-core/git-prompt.sh ]; then
-  . /opt/local/share/git-core/git-prompt.sh
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
 fi
 
 alias ls="ls -G"
