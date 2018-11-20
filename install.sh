@@ -18,6 +18,6 @@ mkdir -p $HOME/.ssh
 curl https://api.github.com/users/andersonshatch/keys | jq -r .[].key > $HOME/.ssh/authorized_keys
 ./changeshell.sh
 
-sudo launchtl load /System/Library/LaunchDaemons/ssh.plist
+sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist
 
 ./defaults.sh
