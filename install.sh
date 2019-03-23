@@ -3,6 +3,7 @@
 cp dotfiles/.bash_profile ~/
 cp dotfiles/.bashrc ~/
 cp dotfiles/.gitconfig ~/
+cp dotfiles/.gitignore ~/
 cp dotfiles/.inputrc ~/
 cp dotfiles/.screenrc ~/
 cp dotfiles/.vimrc ~/
