@@ -19,7 +19,4 @@ mkdir -p $HOME/.ssh
 curl https://github.com/andersonshatch.keys > $HOME/.ssh/authorized_keys
 ./changeshell.sh
 
-sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist
-sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.screensharing.plist
-
 ./defaults.sh
