@@ -16,7 +16,7 @@ fi
 brew bundle -v
 
 mkdir -p $HOME/.ssh
-curl https://api.github.com/users/andersonshatch/keys | jq -r .[].key > $HOME/.ssh/authorized_keys
+curl https://github.com/andersonshatch.keys > $HOME/.ssh/authorized_keys
 ./changeshell.sh
 
 ./defaults.sh
