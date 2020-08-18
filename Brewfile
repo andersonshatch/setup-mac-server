@@ -75,6 +75,8 @@ cask "visual-studio"
 cask "visual-studio-code"
 cask "vlc"
 cask "wireshark"
+mas "Boop", id: 1518425043
+mas "Meeter", id: 1510445899
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft OneNote", id: 784801555
 mas "Microsoft Outlook", id: 985367838
