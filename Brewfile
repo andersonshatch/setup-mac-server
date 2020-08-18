@@ -22,6 +22,7 @@ brew "httpie"
 brew "jq"
 brew "kubernetes-cli"
 brew "lnav"
+brew "mas"
 brew "maven"
 brew "minikube"
 brew "mitmproxy"
@@ -55,7 +56,6 @@ cask "jad"
 cask "java11"
 cask "java6"
 cask "java8"
-cask "microsoft-office"
 cask "minikube"
 cask "mono-mdk"
 cask "paw"
@@ -76,3 +76,9 @@ cask "visual-studio"
 cask "visual-studio-code"
 cask "vlc"
 cask "wireshark"
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft OneNote", id: 784801555
+mas "Microsoft Outlook", id: 985367838
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft Word", id: 462054704
