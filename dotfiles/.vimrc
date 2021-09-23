@@ -49,6 +49,9 @@ set hlsearch            " highlight the last searched term
 set background=dark
 set number
 set relativenumber
+
+command Shcp set number! relativenumber! "toggle number and relative number for easy copying from shell
+
 set cindent shiftwidth=4
 set tabstop=4
 set printoptions=number:y
