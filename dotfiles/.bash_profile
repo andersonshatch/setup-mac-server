@@ -1,9 +1,6 @@
 #source .bash_profile to reload this
 export PATH="/opt/homebrew/bin:$PATH"
-# Use bash-completion, if available
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-  . $(brew --prefix)/etc/bash_completion
-fi
+[[ -r "/opt/homebrew/etc/profile.d/bash_completion.sh" ]] && . "/opt/homebrew/etc/profile.d/bash_completion.sh"
 
 alias ls="ls -G"
 alias la="ls -Gla"
