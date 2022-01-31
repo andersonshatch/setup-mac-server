@@ -1,5 +1,5 @@
 #source .bash_profile to reload this
-
+export PATH="/opt/homebrew/bin:$PATH"
 # Use bash-completion, if available
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
@@ -31,23 +31,11 @@ vnc ()
 	open 'vnc://'$1
 }
 
-# Get the aliases and functions
-
-if [ -f ~/.bashrc ]; then
-  . ~/.bashrc
-fi
-
-export P4CONFIG=~/.p4config
-export ANT_OPTS='-XX:MaxPermSize=128m'
-
-
-# Get the aliases and functions
-if [ -f ~/.bashrc ]; then
-  . ~/.bashrc
-fi
-
 export PATH="~/bin:$PATH"
-
 export PATH="~/.pyenv/shims:$(brew --prefix vim)/bin:$PATH"
 
 alias vi=vim
+
+if [ -f ~/.bashrc ]; then
+  . ~/.bashrc
+fi
