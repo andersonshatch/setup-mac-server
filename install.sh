@@ -11,9 +11,10 @@ cp dotfiles/.vimrc ~/
 if test ! $(which brew)
 then
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+	eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
-brew bundle -v
+/opt/homebrew/bin/brew bundle -v
 
 mkdir -p $HOME/.ssh
 curl https://github.com/andersonshatch.keys > $HOME/.ssh/authorized_keys
