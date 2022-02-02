@@ -1,5 +1,5 @@
 #source .bash_profile to reload this
-export PATH="/opt/homebrew/bin:$PATH"
+[[ -x "/opt/homebrew/bin/brew" ]] && eval "$(/opt/homebrew/bin/brew shellenv)"
 [[ -r "/opt/homebrew/etc/profile.d/bash_completion.sh" ]] && . "/opt/homebrew/etc/profile.d/bash_completion.sh"
 
 alias ls="ls -G"
