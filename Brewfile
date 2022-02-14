@@ -19,7 +19,6 @@ brew "git"
 brew "gradle"
 brew "grafana"
 brew "httpie"
-brew "java11"
 brew "jq"
 brew "kubernetes-cli"
 brew "lnav"
@@ -30,7 +29,9 @@ brew "mitmproxy"
 brew "mkcert"
 brew "mysql@5.7", link: true
 brew "neovim"
+brew "nss"
 brew "nvm"
+brew "openjdk@11"
 brew "rbenv"
 brew "rename"
 brew "ruby"
@@ -47,28 +48,34 @@ cask "1password"
 cask "betterzip"
 cask "deckset"
 cask "docker"
+cask "eclipse-jee"
 cask "encryptme"
 cask "firefox"
 cask "intellij-idea-ce"
 cask "istat-menus"
 cask "iterm2"
+cask "microsoft-teams"
 cask "paw"
-cask "powershell"
 cask "pycharm-ce"
-cask "qlcolorcode"
-cask "qlmarkdown"
-cask "qlstephen"
 cask "sequel-ace"
+cask "slack"
 cask "the-unarchiver"
 cask "vimr"
 cask "visual-studio-code"
 cask "vlc"
 cask "wireshark"
+cask "zoom"
 mas "Boop", id: 1518425043
+mas "Home Assistant", id: 1099568401
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Looking Glass", id: 1602004436
 mas "Meeter", id: 1510445899
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft OneNote", id: 784801555
 mas "Microsoft Outlook", id: 985367838
-mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft Word", id: 462054704
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
