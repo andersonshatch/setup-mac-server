@@ -74,3 +74,16 @@ au BufWrite /private/etc/pw.* set nowritebackup
 let php_sql_query=1
 let php_htmlInStrings=1
 
+" From https://github.com/jeffkreeftmeijer/vim-nightfall/blob/main/plugin/nightfall.vim
+function UpdateBackground()
+  if system("defaults read -g AppleInterfaceStyle") == "Dark\n"
+    if &bg == "light" | set bg=dark | endif
+  else
+    if &bg == "dark" | set bg=light | endif
+  endif
+endfunction
+
+augroup nightfall
+  autocmd!
+  autocmd FocusGained,BufEnter * call UpdateBackground()
+augroup END
