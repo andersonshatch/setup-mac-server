@@ -1,5 +1,5 @@
 # Change shell to homebrew bash
-NEWSHELL='/usr/local/bin/bash'
+NEWSHELL="$(brew --prefix bash)/bin/bash"
 if [ $SHELL != $NEWSHELL ] ; then
 	echo "Changing shell to $NEWSHELL..."
 	if ! grep $NEWSHELL /etc/shells > /dev/null 2>&1 ; then

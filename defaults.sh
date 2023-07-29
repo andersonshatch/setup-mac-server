@@ -14,3 +14,5 @@ defaults write com.apple.finder NewWindowTargetPath file:///Users/josh/
 # Finder - show path and status bars
 defaults write com.apple.finder ShowPathbar -int 1
 defaults write com.apple.finder ShowStatusBar -int 1
+
+/System/Library/PrivateFrameworks/SystemAdministration.framework/Resources/activateSettings -u

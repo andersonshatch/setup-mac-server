@@ -1,7 +1,7 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
-tap "homebrew/services"
+#tap "homebrew/cask"
+#tap "homebrew/core"
+#tap "homebrew/services"
 
 brew "autojump"
 brew "bash"
@@ -16,7 +16,7 @@ brew "httpd"
 brew "jq"
 brew "mosquitto", restart_service: :changed
 brew "mysql", restart_service: :changed
-brew "node@8", link: true
+#brew "node@8", link: true
 brew "php"
 brew "pyenv"
 brew "wget"
@@ -27,6 +27,6 @@ cask "air-video-server-hd"
 cask "dropbox"
 cask "handbrake"
 cask "istat-menus"
-cask "sequel-pro"
+cask "sequel-ace"
 cask "the-unarchiver"
 cask "transmission"
